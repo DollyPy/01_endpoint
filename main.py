@@ -11,8 +11,8 @@ def index():
             "current_day":datetime.now().strftime('%A'),
             "utc_time":datetime.utcnow().isoformat(),
             "track":stack,
-            "github_file_url":"unknown",
-            "github_repo_url":"unknown",
+            "github_file_url":"https://github.com/DollyPy/01_endpoint/blob/main/main.py",
+            "github_repo_url":"https://github.com/DollyPy/01_endpoint",
             "status_code":200
             }
     return jsonify(res)
